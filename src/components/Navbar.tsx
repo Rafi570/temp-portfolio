@@ -28,7 +28,8 @@ export default function Navbar() {
     { label: "Home", href: "#home" },
     { label: "Skills", href: "#skills" },
     { label: "Projects", href: "#projects" },
-    { label: "Timeline", href: "#timeline" },
+    { label: "Experience", href: "#experience" },
+    { label: "Journey", href: "#journey" },
     { label: "Contact", href: "#contact" },
   ];
 

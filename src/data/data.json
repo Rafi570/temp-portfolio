@@ -93,5 +93,42 @@
       "period": "2018 - 2022",
       "description": "Specialized in Software Engineering and Algorithms. Core coursework in Advanced Programming, Database Systems, and Network Security."
     }
-  ]
+  ],
+  "journey": [
+    {
+      "title": "First Open Source Contribution",
+      "subtitle": "GitHub Community",
+      "period": "2020",
+      "description": "Contributed bug fixes and documentation to popular open-source React libraries, sparking a passion for collaborative development."
+    },
+    {
+      "title": "Full Stack Developer Internship",
+      "subtitle": "ByteCraft Tech",
+      "period": "2021 - 2022",
+      "description": "Built production-ready REST APIs and React dashboards during university, bridging academic theory with real-world engineering."
+    },
+    {
+      "title": "Hackathon Winner — DevFest Dhaka",
+      "subtitle": "Google Developer Groups",
+      "period": "2022",
+      "description": "Led a team of four to build a real-time collaboration tool, winning Best Full Stack Project among 40+ teams."
+    },
+    {
+      "title": "Started Freelance Development",
+      "subtitle": "Independent",
+      "period": "2023",
+      "description": "Began taking on freelance projects for startups and SMEs, delivering end-to-end web solutions with Next.js and Node.js."
+    }
+  ],
+  "footer": {
+    "tagline": "Building the web, one pixel at a time.",
+    "quickLinks": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Skills", "href": "#skills" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Experience", "href": "#experience" },
+      { "label": "Journey", "href": "#journey" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  }
 }

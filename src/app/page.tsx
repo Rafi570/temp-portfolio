@@ -1,43 +1,34 @@
 "use client";
 
 import React from "react";
+import AnimatedBackground from "../components/AnimatedBackground";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Marquee from "../components/Marquee";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
-import Timeline from "../components/Timeline";
+import WorkExperience from "../components/WorkExperience";
+import Journey from "../components/Journey";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col bg-base-100 text-base-content antialiased">
-      {/* Navigation */}
+    <div className="min-h-screen flex flex-col text-base-content antialiased relative">
+      <AnimatedBackground />
+
       <Navbar />
 
-      {/* Main Content */}
-      <main className="flex-grow">
-        {/* Hero Section */}
+      <main className="flex-grow relative z-0">
         <Hero />
-
-        {/* Marquee Section */}
         <Marquee />
-
-        {/* Skills Section */}
         <Skills />
-
-        {/* Projects Section */}
         <Projects />
-
-        {/* Timeline (Experience/Education) Section */}
-        <Timeline />
-
-        {/* Contact Section */}
+        <WorkExperience />
+        <Journey />
         <Contact />
       </main>
 
-      {/* Footer */}
       <Footer />
     </div>
   );
