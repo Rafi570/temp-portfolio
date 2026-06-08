@@ -1,0 +1,97 @@
+{
+  "personalInfo": {
+    "name": "Rafiul Islam",
+    "title": "Full Stack Developer",
+    "subtitle": "Crafting premium web experiences & high-performance applications",
+    "bio": "I am a passionate Full Stack Developer with expertise in modern web technologies. I specialize in building scalable, responsive, and visually stunning web applications with Next.js, Node.js, and TypeScript. I love turning complex problems into elegant, user-friendly digital solutions.",
+    "email": "rafi@example.com",
+    "phone": "+880 1712-345678",
+    "location": "Dhaka, Bangladesh",
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "twitter": "https://twitter.com",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+    "resumeUrl": "#"
+  },
+  "skills": [
+    { "name": "Next.js", "category": "Frontend", "level": "Expert" },
+    { "name": "React", "category": "Frontend", "level": "Expert" },
+    { "name": "TypeScript", "category": "Programming", "level": "Expert" },
+    { "name": "JavaScript", "category": "Programming", "level": "Expert" },
+    { "name": "Node.js", "category": "Backend", "level": "Expert" },
+    { "name": "Express", "category": "Backend", "level": "Advanced" },
+    { "name": "MongoDB", "category": "Database", "level": "Advanced" },
+    { "name": "PostgreSQL", "category": "Database", "level": "Advanced" },
+    { "name": "Python", "category": "Programming", "level": "Intermediate" },
+    { "name": "C++", "category": "Programming", "level": "Intermediate" },
+    { "name": "Git", "category": "Tools", "level": "Expert" }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Zenith - Collaborative Workspace",
+      "description": "A premium team productivity hub featuring real-time kanban boards, live chat, document sharing, and detailed progress analytics.",
+      "category": "Full Stack",
+      "tags": ["Next.js", "React", "Node.js", "MongoDB", "Framer Motion"],
+      "liveUrl": "https://zenith-workspace.example.com",
+      "githubUrl": "https://github.com/example/zenith",
+      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&auto=format&fit=crop&q=80",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "title": "NovaFinance - Wealth Dashboard",
+      "description": "An interactive wealth tracking dashboard displaying real-time financial markets, transaction categorization, and automated budget analytics.",
+      "category": "Frontend",
+      "tags": ["React", "TypeScript", "Tailwind CSS", "PostgreSQL"],
+      "liveUrl": "https://novafinance.example.com",
+      "githubUrl": "https://github.com/example/novafinance",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "title": "DevLink - Tech Social Network",
+      "description": "A developer-focused social platform where users can share code snippets, write tech articles, seek help, and connect with other developers.",
+      "category": "Full Stack",
+      "tags": ["Next.js", "Express", "MongoDB", "Node.js"],
+      "liveUrl": "https://devlink-social.example.com",
+      "githubUrl": "https://github.com/example/devlink",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&auto=format&fit=crop&q=80",
+      "featured": false
+    },
+    {
+      "id": "4",
+      "title": "AlgoVis - Sorting Visualizer",
+      "description": "An educational tool simulating and visualizing sorting algorithms like QuickSort, MergeSort, and HeapSort in real time.",
+      "category": "Algorithms",
+      "tags": ["C++", "Python", "JavaScript", "React"],
+      "liveUrl": "https://algovis.example.com",
+      "githubUrl": "https://github.com/example/algovis",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&auto=format&fit=crop&q=80",
+      "featured": false
+    }
+  ],
+  "experience": [
+    {
+      "role": "Senior Full Stack Engineer",
+      "company": "Apex Software Solutions",
+      "period": "2024 - Present",
+      "description": "Leading the frontend transition to Next.js App Router and optimizing web vitals. Architecting database structures in PostgreSQL and MongoDB for high-scale applications."
+    },
+    {
+      "role": "Full Stack Developer",
+      "company": "ByteCraft Tech",
+      "period": "2022 - 2024",
+      "description": "Developed backend APIs using Express and Node.js. Designed interactive user interfaces with React and Tailwind CSS. Implemented automated testing and CI/CD pipelines."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "Dhaka University",
+      "period": "2018 - 2022",
+      "description": "Specialized in Software Engineering and Algorithms. Core coursework in Advanced Programming, Database Systems, and Network Security."
+    }
+  ]
+}
