@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import AnimatedBackground from "../components/AnimatedBackground";
+
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Marquee from "../components/Marquee";
@@ -15,7 +15,6 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col text-base-content antialiased relative">
-      <AnimatedBackground />
 
       <Navbar />
 

@@ -61,3 +61,26 @@ body {
   display: flex;
   user-select: none;
 }
+
+/* Contact form — floating label inputs */
+.contact-input:focus ~ label,
+.contact-input:not(:placeholder-shown) ~ label {
+  top: -0.625rem;
+  font-size: 0.65rem;
+  color: hsl(var(--p));
+}
+
+/* Shimmer keyframe */
+@keyframes shimmer {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* Ping animation override for availability badge */
+@keyframes soft-ping {
+  0%, 100% { transform: scale(1); opacity: 0.75; }
+  50%       { transform: scale(1.8); opacity: 0; }
+}
+.animate-ping {
+  animation: soft-ping 1.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
